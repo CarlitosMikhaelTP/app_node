@@ -47,4 +47,4 @@ networks:
 
 volumes:
   ctorres-dbdata:
-  ctorres-node_modules: 
+  node_modules: 
