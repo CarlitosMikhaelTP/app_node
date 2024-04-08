@@ -5,7 +5,13 @@ const db = require('./db');
 const pedidos = require('./routes/pedidos');
 
 const path = __dirname + '/views/';
-const port = 8080;
+const port = process.env.PORT || 10450;
+
+// Working Torres Pérez
+app.listen(port, function () {
+  console.log(`Example app listening on ${port}!`);
+});
+
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
