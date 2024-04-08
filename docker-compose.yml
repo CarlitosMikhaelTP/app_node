@@ -37,7 +37,7 @@ services:
     volumes:     
       - dbdata:/data/db
     networks:
-      - app-network  
+      - ctorres-app-network  
 
 
 networks:
